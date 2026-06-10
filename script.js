@@ -7,4 +7,5 @@ let mybtn = document.getElementById("incrementBtn");
 mybtn.addEventListener("click", ()=>{
 	count++;
 	counter.textContent = count;
+	alert(count);
 })
